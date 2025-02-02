@@ -81,7 +81,3 @@ Sorularınız için:
 - Issue açın
 - Pull request gönderin
 - Wiki sayfasını ziyaret edin
-
-## 📜 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
