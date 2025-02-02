@@ -22,7 +22,6 @@ Bu proje, web uygulamaları için kapsamlı bir test otomasyon framework'üdür.
 ```
 git clone https://github.com/ulascamli/QEDegerlendirme.git
 ```
- ⁠
 
 2.⁠ ⁠Proje Dizini:
 ```
@@ -32,21 +31,10 @@ cd QEDegerlendirme
 ```
 mvn clean install
 ```
-## Kullanım
 
 # Uygulamayı Başlatın
 ```
 mvn clean test
-```
-
-# Rapor oluştur
-```
-mvn allure:report
-```
-
-# Raporu görüntüle
-```
-mvn allure:serve
 ```
 
 ## 📁 Proje Yapısı
@@ -83,16 +71,16 @@ src/
 specs klasöründe yeni bir .spec dosyası oluşturun
 
 ## 📝 Test Yazım Kuralları
-
-•⁠  ⁠Her test için açıklayıcı isim kullanın
-•⁠  ⁠Test metodlarına uygun annotation'ları ekleyin
-•⁠  ⁠Her testin bağımsız çalışabildiğinden emin olun
+- Her test için açıklayıcı isim kullanın
+- Test metodlarına uygun annotation'ları ekleyin
+- Allure için gerekli etiketleri ekleyin
+- Her testin bağımsız çalışabildiğinden emin olun
 
 ## 📞 Destek
-
-•⁠  ⁠Issue açın
-•⁠  ⁠Pull request gönderin
-•⁠  ⁠Wiki sayfasını ziyaret edin
+Sorularınız için:
+- Issue açın
+- Pull request gönderin
+- Wiki sayfasını ziyaret edin
 
 ## 📜 Lisans
 
