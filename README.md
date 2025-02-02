@@ -19,35 +19,38 @@ Bu proje, web uygulamaları için kapsamlı bir test otomasyon framework'üdür.
 ## Kurulum
 
 1.⁠ ⁠Depoyu Klonlayın:
-⁠ bash
+```
 git clone https://github.com/ulascamli/QEDegerlendirme.git
+```
  ⁠
 
 2.⁠ ⁠Proje Dizini:
-⁠ bash
+```
 cd QEDegerlendirme
- ⁠
-
+```
 3.⁠ ⁠Bağımlılıkları Yükleyin:
-⁠ bash
+```
 mvn clean install
- ⁠
-
+```
 ## Kullanım
 
-⁠ bash
 # Uygulamayı Başlatın
+```
 mvn clean test
+```
 
 # Rapor oluştur
+```
 mvn allure:report
+```
 
 # Raporu görüntüle
+```
 mvn allure:serve
- ⁠
+```
 
 ## 📁 Proje Yapısı
-
+```
 src/
 ├── test/
 │   ├── java/
@@ -72,7 +75,7 @@ src/
 │       └── categories.json
 └── specs/
     └── example.spec
-    
+```
 
 ## 🔍 Test Yazma Rehberi
 
