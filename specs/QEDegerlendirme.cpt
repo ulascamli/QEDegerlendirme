@@ -1,0 +1,159 @@
+Created by n101029 on 31.01.2025
+
+This is a concept file with following syntax for each concept.
+
+# <username> ve <password> ile giris yapilir
+* Suan ki url "https://catchylabs-webclient.testinium.com/" degerini iceriyor mu
+* "catchyLabLogo" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabUsername" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabPassword" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabUsername" elementine <username> yaz
+* "catchyLabPassword" elementine <password> yaz
+* "catchyLabLoginBtn" elementine tikla
+
+# Giris denemesi basarisiz oldugu dogrulanir
+* "catchyLabInvalidPopUp" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+
+# Uygulama icerisinde ki ekranlar kontrol edilir
+* "catchyLabUsername" elementinin gorunur olmadigini en fazla "30" saniye icinde dogrula
+* "catchyLabPassword" elementinin gorunur olmadigini en fazla "30" saniye icinde dogrula
+* "catchyLabInfoScreen" elementinin gorunur oldugunu en fazla "10" saniye icinde dogrula
+* "catchyLabMoneyTransferBtn" elementinin gorunur oldugunu en fazla "10" saniye icinde dogrula
+* "catchyLabLogoutBtn" elementinin gorunur oldugunu en fazla "10" saniye icinde dogrula
+
+# Logout butonuna tiklanir
+* "catchyLabLogoutBtn" elementine tikla
+
+# Uygulamadan logout olundugu dogrulanir
+* Suan ki url "https://catchylabs-webclient.testinium.com/" degerini iceriyor mu
+* "catchyLabLogo" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabUsername" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabPassword" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabInfoScreen" elementinin gorunur olmadigini en fazla "10" saniye icinde dogrula
+* "catchyLabMoneyTransferBtn" elementinin gorunur olmadigini en fazla "10" saniye icinde dogrula
+* "catchyLabLogoutBtn" elementinin gorunur olmadigini en fazla "10" saniye icinde dogrula
+
+# Para transfer ekranina gidilir
+* "catchyLabMoneyTransferBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabMoneyTransferBtn" elementine tikla
+* "catchyLabMoneyTransferBtn" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabMoneyTransferScreen" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabEditAccountBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAddMoneyBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabTransferMoneyBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+
+# Kullanici adi alanına numerik deger girilir ve update butonu disable kaldigi kontrol edilir
+* "catchyLabAccountName" elementinin texti "testinium" degerini iceriyor mu
+* "catchyLabEditAccountBtn" elementine tikla
+* "catcyLabEditAccountScreenTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementininin input alanini temizle
+* "catchyLabAccountNameInput" elementine "1234" yaz
+* "catchyLabEditAccountUpdateBtnDisable" elementinin gorunur oldugunu en fazla "3" saniye icinde dogrula
+
+# Kullanici adi alanına space degeri girilir ve update butonu disable kaldigi kontrol edilir
+* "catchyLabAccountName" elementinin texti "testinium" degerini iceriyor mu
+* "catchyLabEditAccountBtn" elementine tikla
+* "catcyLabEditAccountScreenTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementininin input alanini temizle
+* "catchyLabAccountNameInput" elementine " " yaz
+* "catchyLabEditAccountUpdateBtnDisable" elementinin gorunur oldugunu en fazla "3" saniye icinde dogrula
+
+# Kullanici adi degistirilir ve kontrol edilir ardindan eski haline getirilir
+* "catchyLabAccountName" elementinin texti "testinium" degerini iceriyor mu
+* "catchyLabEditAccountBtn" elementine tikla
+* "catcyLabEditAccountScreenTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementininin input alanini temizle
+* "catchyLabAccountNameInput" elementine "ulas" yaz
+* "catchyLabAccountNameUpdateBtn" elementine tikla
+* "catchyLabMoneyTransferScreen" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "1" saniye bekle
+* "catchyLabAccountName" elementinin texti "ulas" degerini iceriyor mu
+* "catchyLabEditAccountBtn" elementine tikla
+* "catcyLabEditAccountScreenTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountNameInput" elementininin input alanini temizle
+* "catchyLabAccountNameInput" elementine "testinium" yaz
+* "catchyLabAccountNameUpdateBtn" elementine tikla
+* "1" saniye bekle
+* "catchyLabMoneyTransferScreen" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAccountName" elementinin texti "testinium" degerini iceriyor mu
+
+# Para ekleme ekranina girilir ve ekran kontrolleri yapilir
+* "catchyLabAddMoneyBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAddMoneyBtn" elementine tikla
+* "catchyLabAddMoneyScreenTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabCardNumberTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabCardHolderTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabExpiryDateTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabCVVTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAmountTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabMoneyAddBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+
+# Islem yapilmadan once hesaptaki tutar hafizaya alinir
+* "catchyLabTotalAmount" elementinin textini hafızaya kaydet
+
+# Para ekleme ekranindaki zorunlu alanlar kontrol edilir
+* "catchyLabMoneyAddBtn" elementine tikla
+* "catchyLabCardNumberRequired" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabCardHolderRequired" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabExpiryDateRequired" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabCVVRequired" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabAmountRequired" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+
+# Para ekleme ekranina <key> elementine <text> degeri girilir
+* <key> elementine <text> yaz
+
+# Para ekle butonuna basilir
+* "catchyLabMoneyAddBtn" elementine tikla
+* "1" saniye bekle
+* "catchyLabCardNumberRequired" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabCardHolderRequired" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabExpiryDateRequired" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabCVVRequired" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+
+# İslem ozetindeki eklenen tutar <text> tutara esit mi
+* "catchyLabSonParaIslemi" elementinin texti <text> degerini iceriyor mu
+
+# İslem ozetindeki gonderilen tutar <text> tutara esit mi
+* "catchyLabSonParaIslemi" elementinin texti <text> degerini iceriyor mu
+
+# Genel tutar eklenen para degeri ile eşit mi kontrol edilir
+* "catchyLabTotalAmount" elementindeki değer hafizadaki değer ve "1" "toplama" sonrasi esit mi
+
+# Genel tutar gonderilen para degeri ile eşit mi kontrol edilir
+* "catchyLabTotalAmount" elementindeki değer hafizadaki değer ve "1" "cikarma" sonrasi esit mi
+
+# Transfer Money butonuna tiklanir ve ekranin acildigi kontrol edilir
+* "catchyLabTransferMoneyBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabTransferMoneyBtn" elementine tikla
+* "catchyLabTransferMoneyScreenTitle" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabSenderAccount" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabRecevierAccount" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabTransferMoneyAmount" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+
+# Transfer Money send butonuna tiklanir
+* "catchyLabTransferSendBtn" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabTransferSendBtn" elementine tikla
+* "1" saniye bekle
+* "catchyLabTransferMoneyScreenTitle" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabSenderAccount" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabRecevierAccount" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+* "catchyLabTransferMoneyAmount" elementinin gorunur olmadigini en fazla "60" saniye icinde dogrula
+
+# Sender Account secimi yapilir
+* "catchyLabSenderAccountBox" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabSenderAccountBox" elementine tikla
+* "catchyLabSenderSelectTestinium" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabSenderSelectTestinium" elementine tikla
+
+# Receiver Account <key> secimi yapilir
+* "catchyLabReceiverAccountBox" elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* "catchyLabReceiverAccountBox" elementine tikla
+* <key> elementinin gorunur oldugunu en fazla "60" saniye icinde dogrula
+* <key> elementine tikla
+
+# Hesap ozetindeki Receiver Account <name> ismi ile karsilastirilir
+* "catchyLabReceiverAccountName" elementinin texti <name> degerini iceriyor mu
